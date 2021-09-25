@@ -1,0 +1,9 @@
+Bash Command Generation
+
+Q:create a blank 200x200 png
+A:convert -size 200x200 xc:white -background black foo.png
+
+Q:Create a file named 'Test.txt' that has the contents 'This is a test'
+A:echo this is a test > Test.txt
+
+Q:
