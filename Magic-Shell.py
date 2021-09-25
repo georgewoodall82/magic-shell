@@ -8,7 +8,8 @@ from requests import api
 
 print("Welcome to Magic Shell by georgewoodall82")
 print("\n")
-
+print("Note: you can type <shell> then a command to run a shell command without magic shell")
+print("\n")
 
 
 
@@ -49,6 +50,10 @@ else:
 
 while True:
     command = input("<Magic Shell>")
+
+    if command.startswith("<shell>"):
+        print(os.popen(command.removeprefix("<shell>")).read())
+        continue
 
 
     with open("AI21.txt") as prompt1:
