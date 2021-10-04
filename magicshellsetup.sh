@@ -5,4 +5,4 @@ python3 ./get-pip.py
 pip install json
 pip install requests
 pip install os
-echo Installed! Use 'python3 ./Magic-Shell.py' to run.
+echo Installed! Use 'python3 ./Magic-Shell.py' in the install folder to run.
