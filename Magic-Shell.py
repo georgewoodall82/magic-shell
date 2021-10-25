@@ -56,7 +56,7 @@ while True:
         continue
 
 
-    with open("AI21.txt") as prompt1:
+    with open("prompt.txt") as prompt1:
         prompt2 = prompt1.read()
 
 
